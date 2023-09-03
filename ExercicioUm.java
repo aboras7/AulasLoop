@@ -18,7 +18,7 @@ public class ExercicioUm {
         } else {
             for (int i=n1; i<n2; i++) {
             if (i % 3 == 0 && i % 5 == 0 ) {
-                System.out.println(i + " é múltiplo de 3 e 5\n");
+                System.out.println("No intervalo entre " + n1 + " e " + n2+":"+"\n"+ i + " é múltiplo de 3 e 5\n");
             }
             }
         }
